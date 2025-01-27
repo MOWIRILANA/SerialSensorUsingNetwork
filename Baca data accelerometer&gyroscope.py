@@ -45,7 +45,7 @@ while True:
 
         #Konversi data menjadi 2 bagian
         if sensor_type == 1:
-            gyro_data.append((value1, value2, value3))
+            accel_data.append((value1, value2, value3))
             print(f"Accelerometer: X={value1:.6f}, Y={value2:.6f}, Z={value3:.6f}")
         else:
             gyro_data.append((sensor_type, value1, value2, value3))
